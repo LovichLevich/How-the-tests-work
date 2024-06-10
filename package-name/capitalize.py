@@ -1,6 +1,6 @@
 def capitalize(text):
     if text == '':
         return ''
-    first_chair = text[0].upper()
+    first_char = text[0].upper()
     rest_substring = text[1:]
-    return f'{first_chair}{rest_substring}'
+    return f'{first_char}{rest_substring}'
